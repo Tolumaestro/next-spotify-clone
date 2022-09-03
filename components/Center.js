@@ -38,7 +38,7 @@ const Center = () => {
   }, [spotifyApi, playlistId]);
 
   return (
-    <div className="flex-grow h-screen overflow-y-scroll scrollbar-hide">
+    <div className="flex-grow h-screen overflow-y-scroll scrollbar-hide pb-[1rem]">
       <header className="absolute top-5 right-8">
         <div
           className="flex items-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1 pr-2 text-white"
